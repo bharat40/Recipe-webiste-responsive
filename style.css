@@ -225,6 +225,14 @@ body {
 /*making responsive starts from here*/
 
 @media (max-width: 480px) {
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .header {
         display: flex;
         flex-direction: column;
@@ -336,5 +344,10 @@ body {
 
     .box-2-text ol li{
         font-size: 10px;
+    }
+
+    .header p {
+        font-size: xx-large;
+        font-weight: bolder;
     }
 }
